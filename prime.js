@@ -1,6 +1,4 @@
 console.log('%c This is the prime number checker ', 'background: #222; color: #ffff00; padding: 10px;');
-window.open("prime.html", "_self")
-window.close();
 function check(){
 	input = document.getElementById("input");
 	number = input.value;
