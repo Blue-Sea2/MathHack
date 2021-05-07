@@ -3,7 +3,7 @@ function check(){
 	input = document.getElementById("input");
 	output = document.getElementById("output");
 	number = input.value;
-	int factors = 0;
+	var factors = 0;
 	
 	for (let counter = 1; counter <= number; counter++) {
 		console.log(Math.round(number/counter) == number/counter);
