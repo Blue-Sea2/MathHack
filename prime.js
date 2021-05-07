@@ -12,8 +12,8 @@ function check(){
 		}
 	}
 	if (factors == 2) {
-		output.value = "prime";
+		output.innerHTML = "prime";
 	} else {
-		output.value = "not prime";
+		output.innerHTML = "not prime";
 	}
 }
