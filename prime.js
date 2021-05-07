@@ -1,5 +1,5 @@
 console.log('%c This is the prime number checker ', 'background: #222; color: #ffff00; padding: 10px;');
-var done = new Audio("done.mp3");
+var done = new Audio("https://github.com/Blue-Sea2/MathHack/releases/download/Sounds/done.mp3");
 function check(){
 	input = document.getElementById("input");
 	output = document.getElementById("output");
