@@ -5,6 +5,6 @@ function check(){
 	number = input.value;
 	
 	for (let counter = 1; counter <= number; counter++) {
-		console.log(counter);
+		console.log(Math.round(number/counter) == number/counter);
 	}
 }
