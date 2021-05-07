@@ -3,8 +3,17 @@ function check(){
 	input = document.getElementById("input");
 	output = document.getElementById("output");
 	number = input.value;
+	int factors = 0;
 	
 	for (let counter = 1; counter <= number; counter++) {
 		console.log(Math.round(number/counter) == number/counter);
+		if (Math.round(number/counter) == number/counter) {
+			factors++;
+		}
+	}
+	if (factors == 2) {
+		output.value = "prime";
+	} else {
+		output.value = "not prime";
 	}
 }
