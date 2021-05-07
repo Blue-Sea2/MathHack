@@ -6,7 +6,6 @@ function check(){
 	var factors = 0;
 	
 	for (let counter = 1; counter <= number; counter++) {
-		console.log(Math.round(number/counter) == number/counter);
 		if (Math.round(number/counter) == number/counter) {
 			factors++;
 		}
